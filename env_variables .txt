@@ -1,0 +1,8 @@
+#change file extension to .py (shit workaround, I know)
+botURL = '' #put your bot url here
+Database_log = 'put your mongodb cluster url here'
+
+ServerId = 0 #put your guild id here
+
+swears = [] #put your bad words here
+admin = ''#put your discord username here
