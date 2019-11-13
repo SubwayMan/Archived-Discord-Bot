@@ -43,7 +43,7 @@ async def on_message(message):
             await message.channel.send('Can only be force logged out by bot admin!')
     #load channelid and allowed channels
     channelid = client.get_guild(ev.ServerIds['EHSS'])
-    allowed = ['spam', 'games', 'random', 'contest-discussion', 'ccc-prep', 'bots']
+    allowed = ['spam', 'games', 'random', 'contest-discussion', 'ccc-prep', 'bots', 'beginner-questions']
     isValid = True
     try:
         senderID = data.getID(str(message.author))
