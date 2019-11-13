@@ -2,7 +2,7 @@
 import pymongo
 import env_variables
 from pymongo import MongoClient
-
+#wdw
 #load databases
 cluster = MongoClient(env_variables.Database_log)
 db = cluster['Discordbot']
